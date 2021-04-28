@@ -15,7 +15,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter  {
 
-	private final String password = "$2a$10$QF/YQ9BzZoPmi5of5kkNeOP0bre/XmlsxyMX61aEeKwBsSxsfv1/u";
+	private final String password = "$2a$10$Q/zcvmPLmSrGr/5ej9Qnt.hexa/vovXp1XhwBrsJNZzx1iYNlscCi";
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
